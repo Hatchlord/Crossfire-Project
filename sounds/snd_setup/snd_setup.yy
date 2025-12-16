@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_dungeon",
+  "%Name":"snd_setup",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":227.50478,
+  "duration":31.873741,
   "exportDir":"",
-  "name":"snd_dungeon",
+  "name":"snd_setup",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -20,7 +20,7 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":48000,
-  "soundFile":"snd_dungeon.ogg",
+  "sampleRate":44100,
+  "soundFile":"snd_setup.ogg",
   "volume":1.0,
 }
