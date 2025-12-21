@@ -1,1 +1,1 @@
-timer = 120;
+alarm[0] = 120; // 2 seconds until room change
