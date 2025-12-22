@@ -1,1 +1,1 @@
-room_goto(rm_intro3);
+room_goto(setupGoto);
