@@ -23,6 +23,7 @@ switch (global.bindsPref)
         enter = (gamepad != undefined && GPENTER);
         break;
 }
+var _coords = [270, 550];
 
 if (option != 0) // Select preference
 {

@@ -39,14 +39,7 @@ function isIntro()
     return (room == rm_intro3);
 }
 
-function trigger_glitch(_intensity = 1.0, _duration = 30, _pixelation = 0) 
+function seconds_to_frames(seconds) 
 {
-    with (obj_CONTROLLERglitch) 
-    {
-        glitch_active = true;
-        glitch_intensity = clamp(_intensity, 0, 1);
-        glitch_duration = _duration;
-        glitch_timer = 0;
-        pixelation = clamp(_pixelation, 0, 1);
-    }
+    return seconds * fps;
 }
